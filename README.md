@@ -12,6 +12,7 @@ Then, run the installation script:
 partialZipBrowser is a commandline tool for browsing and downloading files from zip files on remote webserver.
 
 
+```
 Usage: ./pzb [parameter] <url to zip>
 Browse and download files and directories from remote zip
 Specifying no parameter starts an interactive console
@@ -26,3 +27,4 @@ Following parameter are avaliable:
   -g, --get       <path>     	downloads remote file
   -d, --directory            	download remote directory recursively instead of sindle file
                              	use this with -g (--get)
+```
