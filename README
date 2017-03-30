@@ -1,4 +1,9 @@
-partialZipBrowser
+This fork automatically installs dependencies and compiles partialZipBrowser
+
+First, make sure you have [Homebrew](http://brew.sh) installed:
+
+```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```ff
+cr
 
 partialZipBrowser is a commandline tool for browsing and downloading files from zip files on remote webserver.
 
@@ -17,6 +22,5 @@ Following parameter are avaliable:
   -g, --get       <path>     	downloads remote file
   -d, --directory            	download remote directory recursively instead of sindle file
                              	use this with -g (--get)
-  -o, --output    <path>     	specify dst filename when downloading
-
+f
 
