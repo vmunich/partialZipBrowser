@@ -17,3 +17,4 @@ xcodebuild
 echo "" && echo "\033[33mWait for xcode to install any dependencies (if prompt), then press enter to continue\033[0m" && read
 cd build/Release
 ./pzb
+pwd
